@@ -12,7 +12,7 @@ import * as serviceWorker from './serviceWorker';
 const store = createStore(reducer)
 
 ReactDOM.render(
-    <Provider store={sotre}>
+    <Provider store={store}>
         <App>
         </App>
     </Provider>,
